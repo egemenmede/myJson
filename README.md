@@ -1,4 +1,4 @@
-myToolsJS
+myJson
 =========
 
 JSON verilerinin HTML5 localStorage içerisine kolayca kaydedip, çağırmak için kullanılabilecek küçük bir kütüphane.
