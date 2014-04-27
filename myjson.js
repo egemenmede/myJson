@@ -6,7 +6,11 @@
  */
 my = {};
 my.jsonLoad = function (key){
-    return JSON.parse(localStorage[key]);
+    if (localStorage[key] != null){
+        return JSON.parse(localStorage[key]);
+    } else {
+        return "";
+    }
 };
 my.jsonSave = function(obj, key) {
     localStorage[key] = JSON.stringify(obj);
